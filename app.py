@@ -24,3 +24,4 @@ while True:
         "nome": nome,
         "texto": texto
     })
+    print('ola')
