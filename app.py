@@ -1,4 +1,4 @@
-import os
+from os import system
 
 mensagens = []
 
@@ -6,7 +6,7 @@ nome = input('Digite seu nome: ')
 
 while True:
     # Limpando terminal
-    os.system('cls')
+    system('cls')
 
     if len(mensagens) > 0:
         for m in mensagens:
